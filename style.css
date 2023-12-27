@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #926239;
+  line-height: 1.6;
+}
+#showcase{
+  background-image: url(https://www.bhmpics.com/downloads/electronic-background/65.abstract-digital-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-engineering-concept-vector-illustration_41981-1818.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+#showcase h1{
+  font-size: 50px;
+  line-height: 1.2;
+}
+#showcase p{
+  font-size: 20px;
+}
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#showcase .button:hover{
+  background: #926239;
+  color: #fff;
+}
+#sec-a{
+  padding: 20px;
+  background-color: #926239;
+  color: #fff;
+  text-align: center;
+}
+#sec-b{
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+#sec-c{
+  display: flex;
+}
+#sec-c div{
+  padding: 20px;
+}
+#sec-c .box-1,
+#sec-c .box-3{
+  background: #926239;
+  color: #fff;
+
+}
+#sec-c .box-2{
+  background: #f9f9f9;
+}
+.vid{
+  width: 55%;
+  margin-right: 2%;
+  float: left;
+}
+.para{
+  width: 100%;
+  
+}
